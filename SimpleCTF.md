@@ -160,10 +160,9 @@ G00d j0b, keep up!
 ```
 Read the file on the home directory to find the first flag.
 
-# Privilege Escalation
-First we gotta find out what privileges mitch has. 
+# Privilege Escalation 
 
-Running `sudo -l` shows that mitch can run vim with sudo privileges.
+Frist running `sudo -l` shows that mitch can run vim with sudo privileges.
 
 `sudo vim /etc/shadow` allows us to read encrpyted passwords from accounts on the machine
 copying the encrypted password from /etc/shadow and attempting to crack it could be a potential option, but there is a easier way. <br>
