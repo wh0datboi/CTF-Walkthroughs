@@ -75,11 +75,11 @@ GENERATED WORDS: 4612
 /robots.txt - is not really relevant <br>
 /server-status - returns 403 forbidden <br>
 /simple - is a hit and returns a webpage <br>
-### ADD IMAGE <br>
+<br> ![](https://i.gyazo.com/839aabe1615d3b6ecf35aad5f8d362f6.png) <br>
 
 Scrolling to the bottom it shows the software used to make the site and the version number. CMS Made Simple 2.2.8
 
-### ADD IMAGE <br>
+![](https://i.gyazo.com/3f3b577a2b253f40cd94db030998ce79.png) <br>
 
 # Exploit
 Searching https://www.exploit-db.com/ for "CMS Made Simple 2.2.8" comes up with https://www.exploit-db.com/exploits/46635 <br>
@@ -130,13 +130,13 @@ Now we have credentials to work with. <br>
 - Username: mitch <br>
 - Password: secret
 # Access
-From the directoy enumeration earlier /simple/admin/login.php was found
-### ADD IMAGE
+From the directoy enumeration earlier /simple/admin/login.php was found <br>
+<br> ![](https://i.gyazo.com/4290489dfd4ae3a626b6665166b56236.png)
 
 using the credentials to log in presents a control panel
 
-### ADD IMAGE
-*Theres not much here that is beneficial to the attack*
+![](https://i.gyazo.com/9db20519d1a484384bd5317ba090f28a.png)
+*Theres not much here that is beneficial to the CTF*
 
 Moving on to trying to use the credentials on SSH
 
