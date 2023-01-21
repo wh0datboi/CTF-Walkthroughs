@@ -11,9 +11,9 @@ Discover 3 open ports on this system:
 22/tcp open ssh OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
 80/tcp open http Apache httpd 2.4.18 ((Ubuntu))
 ```
-Port 80 is open possibly indicating its a web server. <br>
-Going to http://10.10.234.162, presents a VERY simple HTML webpage.
-### INSERT IMAGE <br>
+Port 80 is open possibly indicating its a web server. <br>  
+Going to http://10.10.234.162, presents a VERY simple HTML webpage. <br>
+<br> ![](https://i.gyazo.com/77d9dfc2e6cd4a507a296238d63ebd0a.jpg) <br>
 Using directory enumeration to see if there are any other pages that are accessible.
 
 ```
