@@ -1,5 +1,5 @@
 # Bounty Hacker CTF
-Room - https://tryhackme.com/room/easyctf
+Room - https://tryhackme.com/room/cowboyhacker
 # Recon
 Running a port scan to find open ports
 ```
